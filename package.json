@@ -1,0 +1,19 @@
+{
+  "name": "learnbackstop",
+  "version": "0.1.0",
+  "description": "Kicking the tires with BackstopJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matt-bernhardt/learnbackstop"
+  },
+  "author": "Matt Bernhardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-bernhardt/learnbackstop/issues"
+  },
+  "homepage": "https://github.com/matt-bernhardt/learnbackstop"
+}

@@ -1,0 +1,57 @@
+{
+  "viewports": [
+    {
+      "name": "tablet",
+      "width": 750,
+      "height": 1024
+    },
+    {
+      "name": "desktop",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Homepage",
+      "url": "http://libraries.mit.edu",
+      "hideSelectors": [
+      ],
+      "removeSelectors": [
+      ],
+      "selectors": [
+        "header.header-main",
+        "div#search-main",
+        "div.hours-locations",
+        "div#home-posts-news",
+        "div.guides-experts",
+        "footer.footer-main",
+        "footer.footer-info-institute"
+      ],
+      "readyEvent": null,
+      "delay": 3000,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Barker library",
+      "url": "http://libraries.mit.edu/barker",
+      "hideSelectors": [
+      ],
+      "removeSelectors": [
+      ],
+      "selectors": [
+        "header.header-main",
+        "div#breadcrumb",
+        "div.libraryTitle",
+        "div#tab1",
+        "div.profile",
+        "div#sidebarContent",
+        "footer.footer-main",
+        "footer.footer-info-institute"
+      ],
+      "readyEvent": null,
+      "delay": 3000,
+      "misMatchThreshold" : 0.1
+    }
+  ]
+}

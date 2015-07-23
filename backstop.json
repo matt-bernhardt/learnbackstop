@@ -21,6 +21,7 @@
       ],
       "selectors": [
         "header.header-main",
+        "nav#nav-main div.link-primary:nth-of-type(1)",
         "div#search-main",
         "div.hours-locations",
         "div#home-posts-news",
@@ -51,6 +52,41 @@
       ],
       "readyEvent": null,
       "delay": 3000,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Study spaces",
+      "url": "http://libraries.mit.edu/study",
+      "hideSelectors": [
+      ],
+      "removeSelectors": [
+      ],
+      "selectors": [
+        "header.header-main",
+        "div#breadcrumb",
+        "li.study-space:nth-of-type(1)",
+        "li.study-space:nth-of-type(3)",
+        "div#sidebarContent",
+        "footer.footer-main",
+        "footer.footer-info-institute"
+      ],
+      "readyEvent": null,
+      "delay": 3000,
+      "misMatchThreshold" : 0.1
+    },
+    {
+      "label": "Get it",
+      "url": "http://libraries.mit.edu/getit",
+      "hideSelectors": [
+      ],
+      "removeSelectors": [
+      ],
+      "selectors": [
+        "div#betterBreadcrumbs",
+        "div#stage"
+      ],
+      "readyEvent": null,
+      "delay": 500,
       "misMatchThreshold" : 0.1
     }
   ]

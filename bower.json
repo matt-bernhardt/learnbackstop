@@ -1,0 +1,27 @@
+{
+  "name": "learnbackstop",
+  "version": "0.1.0",
+  "authors": [
+    "Matt Bernhardt <mjbernha@mit.edu>"
+  ],
+  "description": "Kicking the tires on BackstopJS",
+  "keywords": [
+    "backstop",
+    "regression",
+    "testing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backstopjs": "~0.5.1"
+  },
+  "devDependencies": {
+    "backstopjs": "~0.5.1"
+  }
+}
